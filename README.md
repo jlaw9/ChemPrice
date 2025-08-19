@@ -39,7 +39,7 @@ smiles_list = ["CC(=O)NC1=CC=C(C=C1)O", "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O", "O=C(C)
 Next, create an instance from the PriceCollector class. Using this instance, we'll be able to connect to the various integrators and then launch a search on the list of SMILES entered.
 
 ```python
-from chemiprice import PriceCollector
+from chemprice import PriceCollector
 pc = PriceCollector()
 ```
 
